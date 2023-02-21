@@ -1,11 +1,24 @@
+body {
+    background-color: rgba(211, 211, 211, 0.5);
+}
 .dot {
     width: 105px;
     height: 105px;
-    line-height: 105px;
+    line-height: 100px;
     border-radius: 50%;
     font-size: 20px;
     color: #fff;
     text-align: center;
+    border: white solid 5px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.noMargin {
+    margin: 1em;
 }
 
 #redcircle{
