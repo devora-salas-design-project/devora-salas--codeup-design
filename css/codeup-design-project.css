@@ -7,6 +7,12 @@
     color: #fff;
     text-align: center;
 }
+#grid {
+    display: grid;
+    height: 200px;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(3, 1fr);
+}
 
 #redcircle{
     background-color: #e6563b;
