@@ -1,6 +1,7 @@
 body {
     background-color: rgba(211, 211, 211, 0.5);
 }
+
 .dot {
     width: 105px;
     height: 105px;
@@ -11,6 +12,17 @@ body {
     text-align: center;
     border: white solid 5px;
 }
+
+.icons {
+    width: 18px;
+    height: 18px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #020002;
+    text-align: center;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -21,18 +33,25 @@ body {
     margin: 1em;
 }
 
-#redcircle{
+.pictureborder{
+    border: lightgrey solid .5em;
+}
+.redcircle{
     background-color: #e6563b;
+    margin-right: 5px;
 }
 
-#orangecircle{
+.orangecircle{
     background-color: #eb9d3a;
+    margin-right: 5px;
 }
 
-#greencircle{
+.greencircle{
     background-color: #7cb06c;
+    margin-right: 5px;
 }
 
-#bluecircle{
+.bluecircle{
     background-color: #00aba9;
+    margin-right: 5px;
 }
