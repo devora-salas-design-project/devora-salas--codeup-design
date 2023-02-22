@@ -84,3 +84,9 @@ body{
     width: 408px;
     height: 276px;
 }
+
+@media (max-width:768px) {
+    #hidelastheading {
+        visibility: hidden;
+    }
+}
