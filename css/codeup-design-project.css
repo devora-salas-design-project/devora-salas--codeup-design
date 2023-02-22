@@ -13,6 +13,10 @@ body {
     border: white solid 5px;
 }
 
+.borderimage{
+    border: rgba(128, 128, 128, 0.5) solid .5em;
+}
+
 .gridlogos{
     display: grid;
     grid-template-columns:200px 250px;
