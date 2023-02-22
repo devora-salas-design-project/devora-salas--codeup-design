@@ -70,8 +70,17 @@ body{
     background-color: #e6563b;
 }
 
-@media (max-width: 767.98px) { hr { visibility: hidden; } }
+@media (max-width: 767.98px) {
+    hr {
+        visibility: hidden;
+    }
+}
 
 .border{
     border: deeppink solid 2px;
+}
+
+.imgwidtheheight{
+    width: 408px;
+    height: 276px;
 }
