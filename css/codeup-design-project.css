@@ -1,4 +1,8 @@
-body {
+body{
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+.navbar {
     background-color: rgba(211, 211, 211, 0.5);
 }
 
@@ -11,6 +15,10 @@ body {
     color: #fff;
     text-align: center;
     border: white solid 5px;
+}
+
+.borderimage{
+    border: rgba(128, 128, 128, 0.5) solid .5em;
 }
 
 .gridlogos{
@@ -79,3 +87,5 @@ body {
     margin-bottom: 1px;
     float:left;
 }
+
+@media (max-width: 767.98px) { hr { visibility: hidden; } }
