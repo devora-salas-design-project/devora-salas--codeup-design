@@ -80,13 +80,13 @@ body{
     border: deeppink solid 2px;
 }
 
-.imgwidtheheight{
-    width: 408px;
-    height: 276px;
-}
 
 @media (max-width:768px) {
     #hidelastheading {
         visibility: hidden;
     }
+}
+
+.fontanton {
+    font-family: "Anton", sans-serif;
 }
