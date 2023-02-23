@@ -46,7 +46,7 @@ body{
 }
 
 .pictureborder{
-    border: lightgrey solid .5em;
+    border: rgba(211, 211, 211, 0.5) solid .25em;
 }
 
 .redcircle{
@@ -93,4 +93,8 @@ body{
 
 .fontabel {
     font-family: "Abel", sans-serif;
+}
+
+.headersize {
+    font-size: 3.5em;
 }
