@@ -40,7 +40,6 @@ body{
     justify-content: center;
 }
 
-
 .noMargin {
     margin: 1em;
 }
@@ -96,5 +95,5 @@ body{
 }
 
 .headersize {
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
